@@ -4,17 +4,20 @@ export const intialState = {
     loading: false,
     products: [],
     error: false,
+    cart: [],
 };
 
 
 export const pruductReducer = (state, action) => {
     switch (action.type) {
+      
         case actionTypes.FATCHING_START:
             return {
                 ...state,
                 loading: true,
                 error: false,
             };
+
         case actionTypes.FATCHING_SUCCESS:
             return {
                 ...state,
@@ -28,7 +31,13 @@ export const pruductReducer = (state, action) => {
                 ...state,
                 loading: false,
                 error: true,
-            }
+            };
+
+        case actionTypes.ADD_TO_CART:
+            return {
+                ...state,
+                cart: [...state.cart, action.payload],
+            };
 
         default:
             return state;

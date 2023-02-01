@@ -25,6 +25,7 @@ const ProductProvider = ({ children }) => {
         dispatch
     };
 
+    console.log(state);
 
     return (
         <PRODUCT_CONTEXT.Provider value={value}>
