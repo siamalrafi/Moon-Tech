@@ -47,10 +47,9 @@ export const pruductReducer = (state, action) => {
             };
 
 
-
         default:
             return state;
-    }
+    };
 
 
 };
