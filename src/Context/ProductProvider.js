@@ -22,9 +22,8 @@ const ProductProvider = ({ children }) => {
 
     const value = {
         state,
+        dispatch
     };
-    console.log(state);
-
 
 
     return (
