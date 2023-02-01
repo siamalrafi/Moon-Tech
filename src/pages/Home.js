@@ -7,7 +7,7 @@ const Home = () => {
   const data = useProduct();
   const products = data.data.data;
 
-  
+
   console.log(products);
 
 

@@ -1,10 +1,14 @@
-import React, { Children, createContext, useEffect, useState } from 'react';
+import React, { Children, createContext, useEffect, useReducer, useState } from 'react';
 import { useContext } from 'react';
+import { intialState, pruductReducer } from '../State/ProductsState/ProductReducer';
 
 const PRODUCT_CONTEXT = createContext();
 
 const ProductProvider = ({ children }) => {
     const [data, setData] = useState([]);
+
+    const [state, dispatch] = useReducer(pruductReducer, intialState);
+
 
     useEffect(() => {
         fetch('http://localhost:5000/products')
