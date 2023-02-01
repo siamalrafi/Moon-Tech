@@ -5,12 +5,13 @@ export const intialState = {
     products: [],
     error: false,
     cart: [],
+    wishlist: [],
 };
 
 
 export const pruductReducer = (state, action) => {
     switch (action.type) {
-      
+
         case actionTypes.FATCHING_START:
             return {
                 ...state,
@@ -38,6 +39,14 @@ export const pruductReducer = (state, action) => {
                 ...state,
                 cart: [...state.cart, action.payload],
             };
+
+        case actionTypes.WISHLIST:
+            return {
+                ...state,
+                wishlist: [...state.wishlist, action.payload],
+            };
+
+
 
         default:
             return state;
