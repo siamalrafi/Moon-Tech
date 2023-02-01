@@ -1,1 +1,5 @@
-export const actionTypes = {};
+export const actionTypes = {
+    FATCHING_START: 'FATCHING_START',
+    FATCHING_SUCCESS: 'FATCHING_SUCCESS',
+    FATCHING_ERROR: 'FATCHING_ERROR',
+};
