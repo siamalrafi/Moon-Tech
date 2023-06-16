@@ -1,8 +1,6 @@
 # Project Title Moon-Tech
 
-<!-- ![App Screenshot](https://i.ibb.co/54GynT6/moon.png) -->
-
-<img align="center" src="https://i.ibb.co/54GynT6/moon.png" alt="App Screenshot" >
+![App Screenshot](https://i.ibb.co/54GynT6/moon.png)
 
 ## Tech Stack
 
