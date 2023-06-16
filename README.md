@@ -1,7 +1,13 @@
 # Project Title Moon-Tech
 
-![App Screenshot](https://i.ibb.co/54GynT6/moon.png)
-<img src="https://i.ibb.co/LQxprJh/moon-tech-tab.png" alt="App Screenshot" width="200">
+<div style="display: flex;">
+  <div style="flex: 1;">
+    <img src="https://i.ibb.co/54GynT6/moon.png" alt="App Screenshot" style="width: 100%;">
+  </div>
+  <div style="flex: 1;">
+    <img src="https://i.ibb.co/LQxprJh/moon-tech-tab.png" alt="App Screenshot" style="width: 100%;">
+  </div>
+</div>
 
 ## Tech Stack
 
