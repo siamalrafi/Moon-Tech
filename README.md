@@ -1,6 +1,7 @@
 # Project Title Moon-Tech
 
 ![App Screenshot](https://i.ibb.co/54GynT6/moon.png)
+<img src="https://i.ibb.co/LQxprJh/moon-tech-tab.png" alt="App Screenshot" width="200">
 
 ## Tech Stack
 
@@ -15,8 +16,6 @@
 ## Lessons Learned
 
 Description: This is a simple starter website aimed at learning Redux. It is built using React, React Router DOM, Tailwind CSS, MongoDB, Express, and Node.js. The project serves as an introduction to Redux, demonstrating its usage for state management in a React application. It includes features such as routing with React Router, integration with a MongoDB database for data storage, and a responsive user interface styled with Tailwind CSS. This project serves as a foundation for further exploration and learning of Redux concepts in web development.
-
-<img src="https://i.ibb.co/LQxprJh/moon-tech-tab.png" alt="App Screenshot" width="200">
 
 ## Features
 
