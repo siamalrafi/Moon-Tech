@@ -2,6 +2,8 @@
 
 ![App Screenshot](https://i.ibb.co/54GynT6/moon.png)
 
+<img src="https://i.ibb.co/54GynT6/moon.png" alt="App Screenshot" >
+
 ## Tech Stack
 
 **Client:** React, React-router-dom, React-hook-form, React-icons, TailwindCSS, Daisy Ui, Firebase, jwt, NPM,
